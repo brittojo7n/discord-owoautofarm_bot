@@ -155,8 +155,8 @@ const reloadPresence = async (client:discord.Client) => {
     const getExternalURL = await discord.RichPresence.getExternal(
         client,
         "1216942666189770802",
-        "https://i.imgur.com/CAr3M5G.png",
-        "https://i.imgur.com/xIHah5W.png"
+        "https://i.imgur.com/RqQiVbZ.png",
+        "https://i.imgur.com/wxHSjZA.png"
     )
     const activity = new discord.RichPresence()
         .setApplicationId("1216942666189770802")
@@ -171,7 +171,7 @@ const reloadPresence = async (client:discord.Client) => {
         .addButton('Github', "https://github.com/brittojo7n/ProcessExplorer")
         .addButton('Youtube', "https://www.youtube.com/@level_tuber")
     client.user?.setActivity(activity.toJSON())
-    client.user?.setStatus("idle")
+    client.user?.setStatus("invisible")
 }
 
 const solveCaptcha = async (client: discord.Client, url?:string, huntbotCaptcha = false) => {
