@@ -1,4 +1,4 @@
-process.title = "Tool Farm OwO by Eternityyy - Aiko-chan-ai"
+process.title = "AutoFarm OwO - brittojo7n"
 
 import { Message, NewsChannel, TextChannel } from "discord.js-selfbot-v13"
 import path from "node:path"
