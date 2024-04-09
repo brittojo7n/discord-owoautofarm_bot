@@ -80,7 +80,7 @@ const aQuote = async () => {
                 break;
             } else log("Could Not Retrieve Quote From Local Storage, Sending owo/uwu Instead", "e")
         default:
-            await send(["owo","owo buy 100"][ranInt(0, 2)], "quote")
+            await send(["owo","owo owo LoL"][ranInt(0, 2)], "quote")
             break;
     }
 }
